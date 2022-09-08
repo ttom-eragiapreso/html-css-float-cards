@@ -78,5 +78,5 @@ span{
 }
 
 .col:first-child, .col:nth-child(2){
-  margin-right: 5%;
+  margin-right: calc(5% - 4px);
 }
