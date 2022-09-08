@@ -51,28 +51,32 @@ span{
 }
 
 .col-description {
-  display: inline-block;
-  vertical-align: top;
-  padding: 20px 70px 0 20px;
+  float: right;
+  width: calc(100% - 200px);
   color: white;
 }
 
-.nome, .description {
-  margin-bottom: 50px;
+.col-description span{
+  padding: 25px 40px;
 }
 
 .nome{
-  text-transform: capitalize;
   font-weight: 900;
 }
+
 
 .col {
   background-color: rgba(15, 14, 23, 0.7);
   display: inline-block;
   height: 200px;
-  box-shadow:0 0 15px black ;
+  box-shadow:0 0 15px black;
+  width: 30%;
 }
 
 .email{
   color: #66c1e7;
+}
+
+.col:first-child, .col:nth-child(2){
+  margin-right: 5%;
 }
