@@ -70,13 +70,12 @@ span{
   display: inline-block;
   height: 200px;
   box-shadow:0 0 15px black;
-  width: 30%;
+  width: 31%;
+  margin: 0 1%;
 }
 
 .email{
   color: #66c1e7;
 }
 
-.col:first-child, .col:nth-child(2){
-  margin-right: calc(5% - 4px);
-}
+
